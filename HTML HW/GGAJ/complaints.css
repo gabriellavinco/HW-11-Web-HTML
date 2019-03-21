@@ -1,0 +1,11 @@
+iframe.giphy-embed{
+    position: relative;
+    float: center;
+}
+
+h1 {
+    float:center;
+    text-align: center;
+    left: 90px;
+    color: firebrick
+}

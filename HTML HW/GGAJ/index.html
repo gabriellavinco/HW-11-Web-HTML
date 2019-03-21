@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Home</title>
+
+</head>
+<body class='body'>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand nav-logo" href="index.html">Weather Analysis</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> 
+  
+          <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots<span class="caret"></span></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="vis1.html">Lat vs Max Temp</a></li>
+                    <li><a class="dropdown-item" href="vis2.html">Lat vs Wind Speed</a></li>
+                    <li><a class="dropdown-item" href="vis3.html">Lat vs Humidity</a></li>
+                    <li><a class="dropdown-item" href="vis4.html">Lat vs Cloudiness</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+
+
+        <div class="boxed col-lg-6 col-md-12">
+                <h1 class="display-4">Summary: Latitude vs. X</h1>
+                <hr class="my-4">
+                <br>
+                <p> <img class="img" style ="padding: 0 15px; float:left;" src=../Images/LatvMaxTemp.png width=300 height=200 alt=”LatvMaxTemp”></img>
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    <br>
+                    <br>
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+            </div>
+                
+        <div class="boxed col-lg-4 col-md-12">
+            <h1 class="display-4">Visualizations</h1>
+            <hr class="my-4">
+            <p> <a href="vis1.html" ><img class= "p1" style ="padding: 1em; float:left;" src=../Images/LatvMaxTemp.png width=200 height=150 alt=”LatvMaxTemp” /></a>
+              <a href="vis2.html" ><img class= "p2" style ="padding: 1em; float:right;" src=../Images/LatvWindSpeed.png width=200 height=150 alt=”LatvWindSpeed”/></a>
+              <a href="vis3.html" ><img class= "p3" style ="padding: 1em; float:left;" src=../Images/LatvHumidity.png width=200 height=150 alt=”LatvHumidity”/></a>
+              <a href="vis4.html" ><img class= "p4" style ="padding: 1em; float:right;" src=../Images/LatvCloudiness.png width=200 height=150 alt=”LatvCloudiness”/></a>
+            </p>
+            </div>
+
+        <footer>
+            <ul class="links">
+                <a href="index.html">Home |</a>
+                <a href="index.html">About |</a>
+                <a href="index.html">Services |</a>
+                <a href="complaints.html">Complaints |</a>
+                <a href="index.html">Contact |</a>
+                <a href="index.html">Email</a>
+            </ul>
+        <p>Vinco Design 2019  |  WebDesignSux by Vinco Design 2019</p>
+        </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
