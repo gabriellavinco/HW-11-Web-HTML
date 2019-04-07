@@ -13,22 +13,22 @@ In building this dashboard, we'll create individual pages for each plot and a me
 For reference, see the "Screenshots" section below.
 
 The website must consist of 7 pages total, including:
-- A landing page containing:
+- A [landing](https://github.com/gabriellavinco/HW-11-Web-HTML/blob/master/HTML%20Web%20Examples/landing-lg.png) page containing:
 - An explanation of the project.
 - Links to each visualizations page.
 
-Four visualization pages, each with:
+Four ["Visualization"](https://github.com/gabriellavinco/HW-11-Web-HTML/blob/master/HTML%20Web%20Examples/visualize-lg.png) pages, each with:
 - A descriptive title and heading tag.
 - The plot/visualization itself for the selected comparison.
 - A paragraph describing the plot and its significance.
 
-A "Comparisons" page that:
+A ["Comparisons"](https://github.com/gabriellavinco/HW-11-Web-HTML/blob/master/HTML%20Web%20Examples/comparison-lg.png) page that:
 
 - Contains all of the visualizations on the same page so we can easily visually compare them.
 - Uses a bootstrap grid for the visualizations.
 - The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
-A "Data" page that:
+A ["Data"](https://github.com/gabriellavinco/HW-11-Web-HTML/blob/master/HTML%20Web%20Examples/data-lg.png) page that:
 
 - Displays a responsive table containing the data used in the visualizations.
 - The table must be a bootstrap table component.
@@ -38,7 +38,7 @@ A "Data" page that:
 
 
 
-The website must, at the top of every page, have a navigation menu that:
+The website must, at the top of every page, have a [navigation](https://github.com/gabriellavinco/HW-11-Web-HTML/blob/master/HTML%20Web%20Examples/nav-lg.png) menu that:
 
 - Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 - Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
